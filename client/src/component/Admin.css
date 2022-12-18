@@ -1,0 +1,330 @@
+.heading-manage{
+    display:flex;
+    background-color: #6e98e7;
+  }
+  .head-manage{
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    box-shadow: 2px -30px 5px 0px #404142;
+    background-color: #ffffff;
+    width: 15%;
+    padding:0px 0px 190px 0px;
+  }
+  .name-admin-heading{
+    border-bottom:solid;
+    border-color:#6e98e7;
+    margin-top: 20px;
+    border-width: 3px;
+  }
+  .head-per{
+    background-color:#ffffff;
+    text-align: right;
+    width: 85%;
+    height:100%;
+    margin-left: 10px;
+  }
+  .name-admin{
+    color:#1761EA;
+    font-weight:300 ;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .input-search{
+    text-align: center;
+    
+  }
+  .input-search-1{
+    padding: 15px 20px;
+    margin-top: 20px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color:#1761EA;
+    border-width: 1px;
+    border-radius: 5px;
+  }
+  .input-search-div{
+    background-color:#ffffff;
+    padding:20px 0px;
+    margin-top: 25px;
+  }
+  .input-search-2{
+    text-decoration: none;
+    border-radius: 5px;
+    color:#1761EA;
+    font-size: 15px;
+    padding:20px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .input-search-2:hover{
+    background-color: #1761EA;
+    color:#ffffff;
+  }
+  .input-search-div:hover{
+    background-color: #1761EA;
+    color:#ffffff;
+  
+  }
+  .i-ser-input{
+    padding:0 7px 0px 0px;
+    font-size: 19px;
+  }
+  .img-avatar{
+    height:60px;
+    border-style: none;
+    border-color: #ffffff;
+  }
+  .icon-avt{
+    color:#1761EA;
+    padding :20px   10px;
+    font-size: 18px;
+  }
+  .img-avt-i{
+    position:absolute;
+    top:16px;
+    right:160px;
+    border-style: none;
+    border-radius: 50%;
+    border-color: #1761EA;
+    width: 30px;
+    height:30px;
+  }
+  .adm-img{
+    position:absolute;
+    top:22px;
+    right:110px;
+    font-family:Arial, Helvetica, sans-serif;
+  
+  }
+  #admin-sub {
+    box-shadow: 10px 3px 2px 1px #4d4c4c;
+    padding:0px 0px 19px 0px;
+  }
+  #customer-sub{
+    box-shadow: 10px 3px 2px 1px #4d4c4c;
+    padding:0px 0px 19px 0px;
+  
+  }
+  #plane-sub{
+    box-shadow: 10px 3px 2px 1px #4d4c4c;
+    padding:0px 0px 19px 0px;
+  }
+  #ticket-sub{
+    box-shadow: 10px 3px 2px 1px #4d4c4c;
+    padding:0px 0px 19px 0px;
+  }
+  #flight-sub{
+    box-shadow: 10px 3px 2px 1px #4d4c4c;
+    padding:0px 0px 19px 0px;
+  
+  }
+  .img-blue{
+    top:36px;
+    right:155px;
+    position:absolute;
+    border-style: none;
+    border-radius: 70%;
+    background-color: #31C32A;
+    width: 12px;
+    height: 12px;
+  }
+  .local-img{
+    margin-right: -3px;
+    margin-left: -3px;
+    border-style: solid;
+    border-color: #6e98e7;
+    border-top-width: 3px;
+    background-color:#ffffff;
+    text-align: left;
+  }
+  .create-show{
+    margin-top: 10px;
+    margin-left: 90%;
+    padding:10px 30px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#1761EA;
+    font-size: 17px;
+    border-style: solid;
+    border-color: #1761EA;
+    background-color: #ffffff;
+    border-width: 1.6px;
+  }
+  .create-show:hover{
+    color:#ffffff;
+    background-color: #1761EA;
+  }
+  .infomation-tit{
+    margin-top: -21px;
+    margin-left: 30px;
+    color:#1761EA;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .infomation-tit-ad{
+    margin-left: 30px;
+    color:#1761EA;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .infomation-sub{
+    color:#1761EA;
+    font-size: 17px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .infomation-sub-but{
+    border-style:solid;
+    border-color: #1761EA;
+    border-width: 1.6px;
+    color:#1761EA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-left: 50px;
+    padding: 10px 30px;
+  }
+  .infomation-sub-but:hover{
+    color:#ffffff;
+    background-color:#1761EA;
+  }
+  .customer-sub{
+    text-align: left;
+  }
+  .customer-mod{
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: rgba(0,0,0,0.3);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modalCustomer{
+    width:270px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding:10px 150px;
+  }
+  .plane-mod{
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: rgba(0,0,0,0.3);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modalPlane{
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding:10px 150px;
+  }
+  .ticket-mod{
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: rgba(0,0,0,0.3);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modalTicket{
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding:10px 150px;}
+  .flight-mod{
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: rgba(0,0,0,0.6);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modalFlight{
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding:10px 150px;
+  }
+  .infomation-tit-mod{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#1761EA;
+    text-align: left;
+    margin-left: -70px;
+  }
+  .infomation-sub-mod{
+    padding:5px 0px;
+    margin:19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#1761EA;
+    text-align:left;
+    margin-left: -40px;
+  }
+  .inpit-modal{
+    margin:6px;
+    padding:11px 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#1761EA;
+    border-style: solid;
+    border-color: #1761EA;
+    /* margin-left: 10px; */
+  }
+  .modal-button{
+    padding:10px 30px;
+    border-style: solid;
+    border-color: #1761EA;
+    border-width: 1px;
+    color:#1761EA;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin:10px;
+  }
+  .modal-button:hover{
+    color:#ffffff;
+    background-color: #1761EA;
+  }
+  .customer-sub-create{
+    padding:0px 0px 19px 0px;
+  }
+  .plane-sub-create{
+    padding:0px 0px 19px 0px;
+  }
+  .ticket-sub-create{
+    padding:0px 0px 19px 0px;
+  }
+  .flight-sub-create{
+    padding:0px 0px 19px 0px;
+  }
+
+  .box-check{
+    position: fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 10;
+  }
+  
+.list {
+  border-color: #403f3f;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-top-style: solid;
+  padding: 10px 0px;
+  box-shadow: 1px -1px 1px 1px #a3a3a3;
+}
+.from-input{
+  display:flex;
+}
